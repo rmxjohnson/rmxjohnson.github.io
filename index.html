@@ -1,28 +1,114 @@
-<!-- Reset.css -->
+<!-- Rhonda Johnson -->
+<!-- Main Index Page -->
+<!-- About Page -->
 <!DOCTYPE html>
 <html lang="en-us">
 
-  <head>
+<head>
+  <meta charset="UTF-8">
 
-    <meta charset="UTF-8">
-    <title>Example Page</title>
-     </head>
+  <title>Bootstrap Portfolio</title>
+  <!-- Homework Assignment #2 - Bootstrap Portfolio -->
+  <!--<link rel="stylesheet" href="assets/css/reset.css">-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+    crossorigin="anonymous">
+  <!-- Added link to the jQuery Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/javascript/portfolio.js"></script>
 
-  <body>
+</head>
 
-  <h1>Rhonda's Classwork for Github:pages</h1>
+<body>
 
-  <p>Here is some text</p>
+  <!-- As a heading -->
 
-  <h2>This is a header 2</h2>
+  <nav class="navbar navbar-light bg-light " id="navHeader">
+    <span class="navbar-brand mb-0 h1" id="myName">Rhonda Johnson</span>
+    <ul class="nav justify-content-end" id="linkSection">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="portfolio.html">Portfolio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li>
+    </ul>
+  </nav>
 
-  <ul>
-    <li>Test changed</li>
-    <li>Test changed</li>
-    <li>Test</li>
-    <li>Test</li>
-  </ul>
+  <div class="container" id="mainContainer">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12  col-md-8 col-lg-8 col-xl-8 mainContent">
+        <div class="page-header">
+          <h1 class="contentHeader">About Me</h1>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col-12">
+            <p>
+              <img id="imgRhonda" src="assets/images/self.jpg" alt="myimage"> Technical background began with programming, systems administration, and operations. Career shifted to teaching
+              mathematics for 8 years. Currently, a Software Quality Assurance Engineer completing a full-stack web development
+              bootcamp through Case Western Reserve University in order to transition back into computer programming and
+              Web Development
+            </p>
 
-  </body>
+            <br>
+
+            <p>
+              Diverse career path has allowed development of solid skillset necessary to any web development position. Outstanding organizational
+              skills; effective planning and priority setting. Successful use of critical thinking, problem solving, and
+              creativity skills
+            </p>
+
+            <br>
+
+            <p>
+              Within current position, works collaboratively with software development staff on departmental and cross-departmental projects.
+              Executes test strategies and test plans aimed to observe, test, diagnose, and report defects in the software.
+              Stays connected with new and enhanced application features and functions in order to conduct effective end-to-end
+              testing to ensure the stability and quality of releases. Testing software has sparked a desire to dive back
+              into the programming/development arena.
+
+            </p>
+
+            <br>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Information Sidebar -->
+      <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-xl-4" id="sidebar">
+        <div class="card" style="width: 18rem;">
+          <div class="card-header info-card">
+            Information
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">email: rhondaxjohnson@gmail.com</li>
+            <a href="https://www.linkedin.com/in/rhondaxjohnson" target="_blank">
+              <li class="list-group-item">
+                <img src="assets/images/linkedin.jpg" width='25px' height='25px' alt="linkedIn"> LinkedIn Profile
+              </li>
+            </a>
+            <a href="https://github.com/rmxjohnson" target="_blank">
+              <li class="list-group-item">
+                <img src="assets/images/github2.png" width='25px' height='25px' alt="linkedIn"> GitHub Profile
+              </li>
+            </a>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <footer id="mainFooter">
+    </footer>
+  </div>
+
+</body>
 
 </html>

@@ -1,0 +1,104 @@
+<!--Main Index page - Assignment 2
+    Bootstrap Portfoli0
+    Rhonda Johnson -->
+
+<!-- Contact Page -->
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap Portfolio</title>
+    <!-- Homework Assignment #2 - Bootstrap Portfolio -->
+    <!--<link rel="stylesheet" href="assets/css/reset.css">-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+    <!-- Added link to the jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/javascript/portfolio.js"></script>
+</head>
+
+<body>
+    <!-- As a heading -->
+
+    <nav class="navbar navbar-light bg-light" id="navHeader">
+        <span class="navbar-brand mb-0 h1" id="myName">Rhonda Johnson</span>
+        <ul class="nav justify-content-end" id="linkSection">
+            <li class="nav-item">
+                <a class="nav-link active" href="index.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="container" id="mainContainer">
+        <div class="row">
+            <div class="col-md-8 mainContent">
+                <div class="page-header">
+                    <h1 class="contentHeader">Contact</h1>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-md-12">
+
+                        <form id="contact-form">
+                            <ul>
+                                <li>
+                                    <label for="name">Name</label>
+                                    <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+                                </li>
+                                <li>
+                                    <label for="email">Email</label>
+                                    <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+                                </li>
+                                <li>
+                                    <label for="message">Message</label>
+                                    <textarea id="message" name="message" required="required"></textarea>
+                                </li>
+                            </ul>
+                            <input type="submit">
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Information Sidebar -->
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4" id="sidebar">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-header info-card">
+                        Information
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">email: rhondaxjohnson@gmail.com</li>
+                        <a href="https://www.linkedin.com/in/rhondaxjohnson" target="_blank">
+                            <li class="list-group-item">
+                                <img src="assets/images/linkedin.jpg" width='25px' height='25px' alt="linkedIn"> LinkedIn Profile
+                            </li>
+                        </a>
+                        <a href="https://github.com/rmxjohnson" target="_blank">
+                            <li class="list-group-item">
+                                <img src="assets/images/github2.png" width='25px' height='25px' alt="linkedIn"> GitHub Profile
+                            </li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <footer id="mainFooter">
+        </footer>
+    </div>
+
+
+</body>
+
+</html>
