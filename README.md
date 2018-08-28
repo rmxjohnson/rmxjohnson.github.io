@@ -5,7 +5,11 @@ CWRU Bootcamp : Full-Stack Web Development
 
 Main PortFolio
 
-Link to deployed project
+# Link to deployed project
+https://rmxjohnson.github.io/
+
+# Links to GitHub
+https://github.com/rmxjohnson/rmxjohnson.github.io.git
 
 
 The program uses bootstrap along with a custom style.css.
@@ -15,4 +19,4 @@ index.html : general information
 
 portfolio.html : links to projects completed
 
-contact.html : accepts input to send a contact message to me
+
