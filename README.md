@@ -19,4 +19,8 @@ index.html : general information
 
 portfolio.html : links to projects completed
 
+## Portfolio Page
+
+![portfolio.png](assets/images/portfolio.png)	
+
 
